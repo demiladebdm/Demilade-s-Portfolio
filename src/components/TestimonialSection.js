@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import styled from 'styled-components';
 import { MdArrowBack, MdArrowForward } from 'react-icons/md';
-import { useState } from 'react/cjs/react.development';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
 import testimonials from '../assets/data/testimonials';
